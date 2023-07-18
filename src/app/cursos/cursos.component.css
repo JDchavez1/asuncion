@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Estilos para el encabezado */
+  header {
+    
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  /* Estilos para el contenido principal */
+  .container {
+    
+    margin: 0 auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  /* Estilos para los cursos */
+  .curso {
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .curso h2 {
+    margin-top: 0;
+  }
+
+  .curso p {
+    margin-bottom: 0.5rem;
+  }

@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h1 {
+    margin-top: 3rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profesor {
+    margin-left: 5rem;
+    width: 30rem;
+    border: 1px solid #ccc;
+    padding: 3rem;
+    margin-bottom: 20px;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nombre {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.materia {
+    color: #666;
+}
+
+.biografia {
+    margin-top: 10px;
+}
+
+.contacto {
+    margin-top: 10px;
+}
